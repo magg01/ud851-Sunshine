@@ -219,6 +219,8 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             mForecastAdapter.setWeatherData(null);
             loadWeatherData();
             return true;
+        } else if (id == R.id.open_map) {
+
         }
 
         // TODO (2) Launch the map when the map menu item is clicked
